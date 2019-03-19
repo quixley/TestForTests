@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func buttonPressed(_ sender: Any) {
-        label.text = "OK"
+        label.text = "Break"
     }
     
 
