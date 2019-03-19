@@ -45,7 +45,7 @@ class TestForTestsTests: XCTestCase {
     
     func testDivide() {
         let result = calculator.divide(7, by: 2)
-        let prediction = 3.2
+        let prediction = 3.5
         XCTAssertEqual(result, prediction, "Divide test failed. Expected \(prediction), but got \(result)")
     }
 
